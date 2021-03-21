@@ -4,7 +4,7 @@ Basic Python calculator.
 Calculator has the ability to keep the number in the memory, thus multi-step calculation can be performed.
 
 ## Functions:
-Calculator has the following functions:
+*Calculator has the following functions for calculation:*
 
   addition - add()
   
@@ -15,6 +15,12 @@ Calculator has the following functions:
   division - divide()
   
   taking a square root - root()
+  
+*Other functions:*
+
+  see the current count (result) - get_current()
+  
+  reset the count to 0 - reset_current()
  
  
 ## Requirements
@@ -26,6 +32,11 @@ Version of Python - 3.9
 Install through pip, for example:
 
 pip install git+https://github.com/Karalius/Calculator
+
+## Import
+To import it, write:
+
+*from calc import Calculator*
 
 ## Docker
 Dockerfile might be used to created docker image and containerize it.
