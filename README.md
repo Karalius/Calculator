@@ -1,19 +1,31 @@
 # Calculator 1.0
 Basic Python calculator.
 
-It has the following functions:
-  addition,
-  subtraction,
-  multiplication,
-  division,
-  taking a square root.
+Calculator has the ability to keep the number in the memory, thus multi-step calculation can be performed.
+
+## Functions:
+Calculator has the following functions:
+
+  addition - add()
+  
+  subtraction - subtract()
+  
+  multiplication - multiply()
+  
+  division - divide()
+  
+  taking a square root - root()
  
- Calculator has an ability to keep the number as a memory, thus multi-step calculation can be performed.
  
 ## Requirements
 Requirements can be found in requirements.txt file.
-Python 3.9
+
+Version of Python - 3.9
+
 ## Installation
-Install through pip
+Install through pip, for example:
+
+pip install git+https://github.com/Karalius/Calculator
+
 ## Docker
 Dockerfile might be used to created docker image and containerize it.
