@@ -4,7 +4,7 @@ Basic Python calculator.
 Calculator has the ability to keep the number in the memory, thus multi-step calculation can be performed.
 
 ## Functions:
-*Calculator has the following functions for calculation:*
+**Calculator has the following functions for calculation:**
 
   addition - add()
   
@@ -16,7 +16,7 @@ Calculator has the ability to keep the number in the memory, thus multi-step cal
   
   taking a square root - root()
   
-*Other functions:*
+**Other functions:**
 
   see the current count (result) - get_current()
   
@@ -34,7 +34,7 @@ Install through pip, for example:
 pip install git+https://github.com/Karalius/Calculator
 
 ## Import
-To import it, write:
+To import:
 
 *from calc import Calculator*
 
